@@ -1,0 +1,279 @@
+g: border-box;}
+html{
+  scroll-behavior:smooth ;
+}
+body {
+    margin: 5;
+    font-family: "Roboto", sans-serif 
+  }
+h1 {    font-size: 3.5em; color:black;}
+h2{    font-size: 2.7em;}
+h3 {    font-size: 2em;}
+p {    font-size: 1.25em;}
+ul{list-style: none;} 
+li {font-size: 1em;
+
+}
+  button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: azure;
+    background-color: rgb(10, 133, 133);
+  }  
+button:hover{
+  background-color: black 101, 111, 165;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+.color-acento{ green;
+}
+header {
+  background-color: rgba(245,245,245);
+}
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(55, 141, 55);
+  font-size: 1em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height:50px;
+    
+}
+header.container {
+display: flex;
+display direction: column;
+align-items: center;
+
+}
+header.nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 100px 0px;
+  position: fixed;
+  width: 100%;
+  right: -100%;
+  top:0;
+  z-index: 100;
+  transition:0,8s;
+  }
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
+}
+header a.hover {
+  color:rgb(10, 133, 133)
+}
+#hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: black;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5)
+    rgba(0,0,0,0.5);)
+  ,url("media/background-2.jpeg");
+  background repeat:no-repeat;
+  background-size: cover;
+  background.position: center;
+   }
+   #hero 1 {
+    color: black;
+   }
+   #hero button{
+    font-size: 4.5em;
+}
+#Educaciónpúblicaygratuita.container{
+  text-align: center;
+  padding: 200px 12px;
+}
+#Educaciónpúblicaygratuita. texto{
+  background-color: rgb(30,30,30);
+  color: white;
+  text-align: center;
+}
+#Educaciónpúblicaygratuita .img-container{
+  background-image: url(http://morenoprimero.com.ar/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-24-at-11.04.26-AM-768x811.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px; 
+}
+
+#Educaciónpúblicaygratuita  h2{
+  margin-top: 0;
+  font-size: 3.2em;
+}
+
+#Nuestras-carreras.programas  {
+  display: flex;
+  justify-content: center;
+}
+#Nuestras-carreras.p  {
+  display: block;
+  margin-bottom: 30px;
+}
+#Nuestras-carreras h2 {
+  font-size: 4em;
+}
+#Nuestras-carreras h3 {
+  margin-top: 0;
+}
+#Nuestras-carreras .carta{
+  background-position: center center;
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  background-color: aquamarine;
+  padding: 50px ;
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("media/full-stack.jpg");
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ;
+
+}
+.carta:nth-child(3){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("media/python.jpg");
+
+}
+#Caracteristicas {
+ background-image: url("media/background-2.jpeg");
+ background-repeat: no-repeat;
+ background-size: 500px 400px;
+ background-position: calc (100vw - 500 px) 120px;
+}
+#Caracteristicas .container{
+  text-align: initial;
+  text-decoration: none;
+  
+}
+#Caracteristicas .address{
+  text-align: center;
+  text-decoration: none;
+  
+}
+#Caracteristicas ul{
+  margin-left: 100px;
+  
+}
+#planificaya h2{
+  font-weight: 5em;
+}
+#planificaya button{
+  font-weight: 5em;
+}
+
+  footer. .container{
+ justify-content: flex-end;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+    background: #153503;
+        text-align: center;
+        
+}
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer {
+  background: #153503;
+  text-align: center;
+  color: white;
+  padding: 10px; 
+}
+.nav-enlace {
+  background: rgb(55, 155, 8);
+  color: #fff;
+  padding: 10px 30px;
+  margin: auto;
+  display: inline-block;
+  text-decoration: none;
+}
+.nav-enlace:hover {
+  background: rosybrown;
+  color: #fff;
+  padding: 10px 20px 0px;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+body
+{
+  height:150px;
+background-image: url(https://iccas.org.ar/images/icons/salud.png);
+background-size: 100rem;
+background repeat:no-repeat;
+}
+@media (max-width: 768px){
+  /*HEADER*/
+  .nav-enlace,
+  .nav-enlace:hover{
+        order:1:
+  }
+ 
+  .youtube180{
+    width:400pX; 
+    display:block;
+    margin: auto;
+    border:1px solid #E9967A;
+    justify-content: center;
+               
+}
+.youtube180:hover
+{
+  background: rosybrown;
+  color: #fff;
+  padding: 10px 20px 0px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+article {
+  text-align: center; 
+}
+.agrupar {
+  margin: auto; 
+  padding: 40px;
+  border: 1px solid black;
+  }
