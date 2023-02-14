@@ -219,7 +219,43 @@ padding: 100px 20px 0px;
   .nav-enlace:hover{
         order:1:
   }
- 
+  @media (max-width: 700px){
+    /*HEADER*/
+    header {
+      flex-direction: column;
+    }
+    .nav-enlace,
+    .nav-enlace:hover{
+      padding:10px 0px;
+          order:1:
+    }
+   
+    .youtube180{
+      width:400pX; 
+      display:block;
+      margin: auto;
+      border:1px solid #E9967A;
+      justify-content: center;
+                 
+  }
+  .youtube180:hover
+  {
+    background: rosybrown;
+    color: #fff;
+    padding: 10px 20px 0px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  article {
+    text-align: justify; 
+  }
+  .agrupar {
+    margin: auto; 
+    padding: 40px;
+    border: 1px solid black;
+    }
+  
   .youtube180{
     width:400pX; 
     display:block;
@@ -258,6 +294,17 @@ body {
   
 }
   
-
-
+@media (max-width: 700px){
+  /*HEADER*/
+  header {
+    flex-direction: column;
+  }
+  .nav-enlace,
+  .nav-enlace:hover{
+    padding:10px 0px;
+        order:1:
+  }
+.text-justify{
+  text-align: justify;
+}
 }
